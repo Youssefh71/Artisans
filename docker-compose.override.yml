@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 version: '3'
 
 services:
@@ -13,19 +12,3 @@ services:
     image: schickling/mailcatcher
     ports: [1025, 1080]
 ###< symfony/mailer ###
-=======
-version: '3'
-
-services:
-###> doctrine/doctrine-bundle ###
-  database:
-    ports:
-      - "5432"
-###< doctrine/doctrine-bundle ###
-
-###> symfony/mailer ###
-  mailer:
-    image: schickling/mailcatcher
-    ports: [1025, 1080]
-###< symfony/mailer ###
->>>>>>> c1799982051da696350c23179b59a0664fb289c2
